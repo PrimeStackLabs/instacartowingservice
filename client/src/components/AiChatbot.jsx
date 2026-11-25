@@ -73,7 +73,7 @@ export default function AiChatbot() {
     "🚨 Emergency breakdown right now!",
     "⏱️ How fast can a truck reach me?",
     "💰 How much does towing cost?",
-    "📍 Do you cover Hoskote & Whitefield?",
+    "📍 Do you cover Yeshwanthpur & Whitefield?",
     "🔋 Dead battery or tyre puncture",
     "🏎️ Luxury / Sports car towing"
   ];
@@ -100,7 +100,7 @@ export default function AiChatbot() {
 
     if (q.includes('fast') || q.includes('reach') || q.includes('eta') || q.includes('time') || q.includes('minutes') || q.includes('arrival')) {
       return {
-        text: "⏱️ **Average Arrival Time:**\n• **Primary Corridors** (Hoskote, Whitefield, KR Puram, Indiranagar): **15 – 25 Minutes**\n• **Mid-Range / ORR** (Marathahalli, Electronic City, Koramangala): **20 – 30 Minutes**\n• **Extended Highway & Airport Road**: **25 – 35 Minutes**\n\nWe have trucks on live standby across Bengaluru 24/7/365.",
+        text: "⏱️ **Average Arrival Time:**\n• **Primary Corridors** (Nayandahalli, Whitefield, KR Puram, Indiranagar, Jalahalli, Yeshwanthpur): **15 – 25 Minutes**\n• **Mid-Range / ORR** (Koramangala, Hebbal, Bellandur, HSR Layout): **20 – 30 Minutes**\n• **Extended Highway & Airport Road** (Nelamangala, Kengeri, Mysore Road, Yelahanka, Devanahalli): **25 – 40 Minutes**\n\nWe have trucks on live standby across Bengaluru 24/7/365.",
         showActions: true
       };
     }
@@ -112,9 +112,9 @@ export default function AiChatbot() {
       };
     }
 
-    if (q.includes('location') || q.includes('area') || q.includes('whitefield') || q.includes('hoskote') || q.includes('bengaluru') || q.includes('bangalore') || q.includes('electronic city')) {
+    if (q.includes('location') || q.includes('area') || q.includes('whitefield') || q.includes('bengaluru') || q.includes('bangalore') || q.includes('nelamangala') || q.includes('yelahanka') || q.includes('kengeri') || q.includes('yeshwanthpur')) {
       return {
-        text: "📍 **Complete Bengaluru Coverage:**\n• **Fleet HQ:** Hoskote & NH 75 Highway\n• **East Hub:** Whitefield, Kadugodi, Hoodi, ITPL\n• **Central/ORR:** KR Puram, Tin Factory, Indiranagar, Marathahalli\n• **South/Expressways:** Electronic City, Bellandur, Sarjapur, NICE Road\n• **North:** Devanahalli Airport Road (NH 44), Yelahanka, Manyata Tech Park",
+        text: "📍 **Complete Bengaluru Coverage:**\n• **West & North-West:** Nayandahalli, Jalahalli, Yeshwanthpur, Nelamangala, Kengeri, Mysore Road\n• **East Hub:** Whitefield, Kadugodi, Hoodi, ITPL\n• **Central/ORR:** KR Puram, Tin Factory, Indiranagar, Koramangala\n• **North:** Devanahalli Airport Road (NH 44), Yelahanka, Hebbal\n• **South/Expressways:** Bellandur, Sarjapur, NICE Road",
         showActions: true
       };
     }
@@ -312,7 +312,7 @@ export default function AiChatbot() {
                     {isAi && m.showActions && (
                       <div style={{ display: 'flex', gap: '6px', marginTop: '10px', flexWrap: 'wrap' }}>
                         <a
-                          href="tel:+918867666437"
+                          href="tel:+919632090752"
                           className="btn btn-primary"
                           style={{
                             padding: '0.4rem 0.75rem',
@@ -321,10 +321,10 @@ export default function AiChatbot() {
                             borderRadius: '6px'
                           }}
                         >
-                          <Phone size={12} /> Call: 88676 66437
+                          <Phone size={12} /> Call: 96320 90752
                         </a>
                         <a
-                          href="https://wa.me/918867666437?text=Hi%20Car%20Services,%20I%20need%20assistance%20in%20Bengaluru."
+                          href="https://wa.me/919632090752?text=Hi%20Car%20Services,%20I%20need%20assistance%20in%20Bengaluru."
                           target="_blank"
                           rel="noopener noreferrer"
                           className="btn"

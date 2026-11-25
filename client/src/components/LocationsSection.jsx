@@ -10,28 +10,28 @@ export default function LocationsSection() {
     {
       key: 'primary',
       title: 'Primary Service Areas',
-      count: '(8 Locations)',
+      count: `(${locationsData.primary.areas.length} Locations)`,
       icon: MapPin,
       data: locationsData.primary
     },
     {
       key: 'nearby',
       title: 'Nearby Areas (0 – 3 km)',
-      count: '(12 Locations)',
+      count: `(${locationsData.nearby.areas.length} Locations)`,
       icon: Crosshair,
       data: locationsData.nearby
     },
     {
       key: 'midRange',
       title: 'Mid-Range Areas',
-      count: '(6 Locations)',
+      count: `(${locationsData.midRange.areas.length} Locations)`,
       icon: Layers,
       data: locationsData.midRange
     },
     {
       key: 'extended',
       title: 'Extended Service Areas',
-      count: '(10 Locations)',
+      count: `(${locationsData.extended.areas.length} Locations)`,
       icon: Map,
       data: locationsData.extended
     }
@@ -41,15 +41,15 @@ export default function LocationsSection() {
     setExpandedCategory(expandedCategory === key ? null : key);
   };
 
-  // Pins on the Bengaluru Map matching Image 1
+  // Pins on the Bengaluru Map
   const mapPins = [
     { top: '18%', left: '46%', label: 'Airport Rd (NH 44)' },
-    { top: '22%', left: '76%', label: 'Hoskote Depot' },
+    { top: '26%', left: '34%', label: 'Yeshwanthpur' },
     { top: '42%', left: '70%', label: 'Whitefield ITPL' },
     { top: '36%', left: '56%', label: 'KR Puram' },
     { top: '48%', left: '44%', label: 'Indiranagar' },
-    { top: '35%', left: '26%', label: 'Peenya / Tumkur' },
-    { top: '74%', left: '58%', label: 'Electronic City' }
+    { top: '35%', left: '22%', label: 'Peenya / Nelamangala' },
+    { top: '68%', left: '28%', label: 'Kengeri / Mysore Rd' }
   ];
 
   return (
@@ -480,14 +480,14 @@ export default function LocationsSection() {
                       {/* Fast Action Buttons */}
                       <div style={{ display: 'flex', gap: '0.75rem' }}>
                         <a
-                          href="tel:+918867666437"
+                          href="tel:+919632090752"
                           className="btn btn-primary btn-sm"
                           style={{ flex: 1, justifyContent: 'center', padding: '0.6rem' }}
                         >
                           <Phone size={14} /> Call Dispatch
                         </a>
                         <a
-                          href={`https://wa.me/918867666437?text=Hi%20Car%20Services,%20I%20need%20recovery%20assistance%20in%20${encodeURIComponent(cat.title)}.`}
+                          href={`https://wa.me/919632090752?text=Hi%20Car%20Services,%20I%20need%20recovery%20assistance%20in%20${encodeURIComponent(cat.title)}.`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="btn btn-whatsapp btn-sm"

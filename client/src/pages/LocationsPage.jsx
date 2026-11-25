@@ -44,7 +44,7 @@ export default function LocationsPage() {
             Bengaluru Towing Locations & Response Corridors
           </h1>
           <p style={{ maxWidth: '720px', margin: '0 auto 1.75rem auto', fontSize: '0.98rem', color: 'var(--text-secondary)', lineHeight: '1.55' }}>
-            We operate fully equipped recovery depots across Hoskote, Whitefield, KR Puram, Indiranagar, Electronic City, and key highway junctions for rapid under-30-minute dispatch.
+            We operate fully equipped recovery depots across Nayandahalli, Whitefield, KR Puram, Indiranagar, Yeshwanthpur, and key highway junctions for rapid under-30-minute dispatch.
           </p>
 
           {/* Interactive Search Box */}
@@ -53,7 +53,7 @@ export default function LocationsPage() {
             <input
               type="text"
               className="form-control"
-              placeholder="Search your area, landmark or pincode (e.g. Hoskote, Whitefield, 560066)..."
+              placeholder="Search your area, landmark or pincode (e.g. Nayandahalli, Whitefield, 560066)..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               style={{
@@ -119,7 +119,8 @@ export default function LocationsPage() {
               <div style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-                gap: '1.5rem'
+                gap: '1.5rem',
+                alignItems: 'start'
               }}>
                 {matchingAreas.map((area, idx) => {
                   const isExpanded = expandedArea === area.name;
@@ -191,7 +192,7 @@ export default function LocationsPage() {
 
                           <div style={{ display: 'flex', gap: '0.6rem' }}>
                             <a
-                              href="tel:+918867666437"
+                              href="tel:+919632090752"
                               className="btn btn-primary btn-sm"
                               style={{ flex: 1, justifyContent: 'center' }}
                               onClick={(e) => e.stopPropagation()}
@@ -199,7 +200,7 @@ export default function LocationsPage() {
                               <Phone size={14} /> Call Dispatch
                             </a>
                             <a
-                              href={`https://wa.me/918867666437?text=Hi%20Car%20Services,%20I%20need%20recovery%20assistance%20in%20${encodeURIComponent(area.name)}.`}
+                              href={`https://wa.me/919632090752?text=Hi%20Car%20Services,%20I%20need%20recovery%20assistance%20in%20${encodeURIComponent(area.name)}.`}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="btn btn-whatsapp btn-sm"

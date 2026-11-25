@@ -22,7 +22,7 @@ export default function HowItWorks() {
       step: "01",
       icon: PhoneCall,
       title: "Call or WhatsApp",
-      description: "Dial our 24/7 hotline (+91 88676 66437) or share your live WhatsApp location pin along with vehicle model."
+      description: "Dial our 24/7 hotline (+91 96320 90752) or share your live WhatsApp location pin along with vehicle model."
     },
     {
       step: "02",
@@ -239,7 +239,7 @@ export default function HowItWorks() {
             Need immediate recovery right now?
           </span>
           <a
-            href="tel:+918867666437"
+            href="tel:+919632090752"
             className="btn btn-primary"
             style={{
               padding: '0.72rem 1.6rem',
@@ -249,7 +249,7 @@ export default function HowItWorks() {
               gap: '0.65rem'
             }}
           >
-            <PhoneCall size={17} /> Dial Emergency Hotline: +91 88676 66437
+            <PhoneCall size={17} /> Dial Emergency Hotline: +91 96320 90752
           </a>
         </div>
 

@@ -113,7 +113,7 @@ export default function Hero() {
               alignItems: 'center'
             }}>
               <a
-                href="tel:+918867666437"
+                href="tel:+919632090752"
                 className="btn btn-primary"
                 style={{
                   padding: '0.85rem 1.6rem',
@@ -126,7 +126,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://wa.me/918867666437?text=Hi%20Car%20Services,%20I%20am%20stranded%20and%20need%20assistance.%20Here%20is%20my%20location."
+                href="https://wa.me/919632090752?text=Hi%20Car%20Services,%20I%20am%20stranded%20and%20need%20assistance.%20Here%20is%20my%20location."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"

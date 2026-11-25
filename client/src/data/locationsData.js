@@ -6,12 +6,12 @@ export const locationsData = {
     countLabel: "8 Locations",
     areas: [
       {
-        name: "Hoskote & Hoskote Highway",
-        pincode: "562114",
-        landmark: "Depot Base, Toll Plaza & MVJ Medical Hub",
-        coverage: "Complete coverage including NH 75 and satellite ring roads",
-        eta: "10 - 15 Mins",
-        highlight: "Fleet HQ Base"
+        name: "Nayandahalli & Outer Ring Road",
+        pincode: "560039",
+        landmark: "Nayandahalli Junction, Metro Station & Ring Road Flyover",
+        coverage: "Mysore Road intersection, West ORR arterial corridors, and feeder streets",
+        eta: "15 - 25 Mins",
+        highlight: "West Hub Dispatch"
       },
       {
         name: "Whitefield & ITPL Corridor",
@@ -38,20 +38,20 @@ export const locationsData = {
         highlight: "Luxury & Supercar Unit"
       },
       {
-        name: "Marathahalli & Kadubeesanahalli",
-        pincode: "560037",
-        landmark: "Marathahalli Bridge, Multiplex & Outer Ring Road Tech Parks",
-        coverage: "Expressway underpasses, ORR service roads, and residential layouts",
+        name: "Jalahalli & BEL Road",
+        pincode: "560013",
+        landmark: "Jalahalli Cross, BEL Circle & Gangamma Circle",
+        coverage: "Tumkur Road connectors, residential layouts, and arterial streets",
         eta: "15 - 25 Mins",
-        highlight: "24/7 Patrol Truck"
+        highlight: "North-West Patrol Unit"
       },
       {
-        name: "Electronic City (Phase 1 & 2)",
-        pincode: "560100",
-        landmark: "Elevated Expressway, Infosys Gate, Hosur Road Border",
-        coverage: "Elevated tollway recovery, industrial estates, and tech campuses",
-        eta: "20 - 30 Mins",
-        highlight: "Expressway Recovery Rig"
+        name: "Yeshwanthpur & Tumkur Road",
+        pincode: "560022",
+        landmark: "Yeshwanthpur Railway Station, Orion Mall & Metro Hub",
+        coverage: "Industrial zones, market flyovers, and NH 48 service roads",
+        eta: "15 - 25 Mins",
+        highlight: "Rapid Flatbed Station"
       },
       {
         name: "Koramangala (All Blocks)",
@@ -74,17 +74,9 @@ export const locationsData = {
   nearby: {
     category: "Nearby Areas (0–3 km)",
     tagline: "Instant Response Radius from Our Primary Depots (<15 Mins ETA)",
-    description: "Closest perimeter surrounding our Hoskote and East Bengaluru operations.",
-    countLabel: "12 Locations",
+    description: "Closest perimeter surrounding our primary dispatch hubs across Bengaluru.",
+    countLabel: "9 Locations",
     areas: [
-      {
-        name: "Hoskote Toll Plaza & Bypass",
-        pincode: "562114",
-        landmark: "Bangalore-Tirupati NH 75 Toll Plaza",
-        coverage: "Highway breakdown assistance, toll lane clearing, tyre assistance",
-        eta: "10 - 15 Mins",
-        highlight: "Immediate Response"
-      },
       {
         name: "MVJ Medical College & Hospital Zone",
         pincode: "562114",
@@ -118,14 +110,6 @@ export const locationsData = {
         highlight: "Rural & Paved Roads"
       },
       {
-        name: "Kammannahalli (Hoskote rural)",
-        pincode: "562114",
-        landmark: "State Highway 35 crossing",
-        coverage: "State highway corridors and commuter routes",
-        eta: "12 - 18 Mins",
-        highlight: "Rapid Dispatch"
-      },
-      {
         name: "Channasandra Industrial Layout",
         pincode: "560067",
         landmark: "Channasandra Main Road & Rail Crossing",
@@ -148,14 +132,6 @@ export const locationsData = {
         coverage: "Regional links and village perimeter",
         eta: "10 - 15 Mins",
         highlight: "Quick Rescue"
-      },
-      {
-        name: "Hoskote Lake Road & Bypass",
-        pincode: "562114",
-        landmark: "Lake View Corridor & Overbridge",
-        coverage: "Highway curves, scenic route, and bridges",
-        eta: "10 - 15 Mins",
-        highlight: "Immediate Response"
       },
       {
         name: "Medahalli Bridge & Old Madras Road",
@@ -235,7 +211,7 @@ export const locationsData = {
     category: "Extended Service Areas",
     tagline: "Outskirts, Highways & Airport Transit Corridors (30 - 45 Mins ETA)",
     description: "Extended emergency reach across Bengaluru's outskirts, national highways, and airport routes.",
-    countLabel: "10 Locations",
+    countLabel: "11 Locations",
     areas: [
       {
         name: "Devanahalli & Kempegowda Airport Road",
@@ -280,7 +256,7 @@ export const locationsData = {
       {
         name: "Attibele & Hosur Border",
         pincode: "562107",
-        landmark: "Karnataka-Tamil Nadu Border Toll, Electronic City Link",
+        landmark: "Karnataka-Tamil Nadu Border Toll, Hosur Road Link",
         coverage: "Interstate highway transit, freight corridors, and border checkpoints",
         eta: "35 - 45 Mins",
         highlight: "Interstate Transit"
@@ -310,12 +286,20 @@ export const locationsData = {
         highlight: "South Perimeter"
       },
       {
-        name: "Kengeri & Mysore Road Satellite Hub",
+        name: "Kengeri Satellite Town",
         pincode: "560060",
-        landmark: "Kengeri Metro Terminal & RV College",
-        coverage: "West Bengaluru arterial routes and peripheral link road",
+        landmark: "Kengeri Metro Terminal & Outer Ring Link",
+        coverage: "West Bengaluru residential routes and peripheral link road",
         eta: "35 - 45 Mins",
         highlight: "West Dispatch"
+      },
+      {
+        name: "Mysore Road Corridor",
+        pincode: "560098",
+        landmark: "RV College, RR Nagar Arch & Mysore Road Metro",
+        coverage: "Mysore Road highway stretches, flyovers, and arterial corridors",
+        eta: "30 - 40 Mins",
+        highlight: "Highway Recovery Unit"
       }
     ]
   }

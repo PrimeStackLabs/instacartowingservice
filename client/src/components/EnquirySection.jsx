@@ -64,7 +64,7 @@ export default function EnquirySection() {
     setSubmitted(true);
 
     // Open WhatsApp in new tab
-    const waUrl = `https://wa.me/918867666437?text=${message}`;
+    const waUrl = `https://wa.me/919632090752?text=${message}`;
     window.open(waUrl, '_blank');
   };
 
@@ -185,7 +185,7 @@ export default function EnquirySection() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem', marginTop: 'auto' }}>
                 {/* 1. Primary Gold Hotline */}
                 <a
-                  href="tel:+918867666437"
+                  href="tel:+919632090752"
                   style={{
                     background: '#F5B82E',
                     color: '#101214',
@@ -224,7 +224,7 @@ export default function EnquirySection() {
                       PRIMARY HOTLINE (24/7)
                     </div>
                     <div style={{ fontSize: '1.05rem', fontWeight: 900, letterSpacing: '0.02em', lineHeight: 1.2 }}>
-                      +91 88676 66437
+                      +91 96320 90752
                     </div>
                   </div>
                 </a>
@@ -279,7 +279,7 @@ export default function EnquirySection() {
 
                 {/* 3. WhatsApp Direct Button */}
                 <a
-                  href="https://wa.me/918867666437?text=Hi%20Car%20Services,%20I%20need%20roadside%20assistance%20in%20Bengaluru."
+                  href="https://wa.me/919632090752?text=Hi%20Car%20Services,%20I%20need%20roadside%20assistance%20in%20Bengaluru."
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -355,7 +355,7 @@ export default function EnquirySection() {
                 </div>
                 <div>
                   <div style={{ color: '#111C2B', fontWeight: 800, fontSize: '0.92rem' }}>Central Fleet HQ:</div>
-                  <div style={{ color: '#525A68', fontSize: '0.88rem', marginTop: '0.1rem' }}>Hoskote, Bengaluru, Karnataka 562114</div>
+                  <div style={{ color: '#525A68', fontSize: '0.88rem', marginTop: '0.1rem' }}>8th mile circle, T.Dasarahalli Nelamangala Main Road Bangalore 560062</div>
                 </div>
               </div>
 
@@ -601,7 +601,7 @@ export default function EnquirySection() {
                   <input
                     type="text"
                     className="form-control"
-                    placeholder="e.g. Near Hoskote Toll Plaza / Whitefield ITPL / Tin Factory"
+                    placeholder="e.g. Near Nayandahalli Junction / Whitefield ITPL / Tin Factory"
                     value={formData.location}
                     onChange={(e) => setFormData({ ...formData, location: e.target.value })}
                     style={{

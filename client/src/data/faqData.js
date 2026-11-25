@@ -2,7 +2,7 @@ export const faqData = [
   {
     id: "faq-1",
     question: "How fast will your towing truck reach my location in Bengaluru?",
-    answer: "Our average arrival time within Bengaluru city limits and the Hoskote-Whitefield corridor is between 15 to 30 minutes. We have multiple fleet units positioned strategically near key transit corridors (Hoskote, Whitefield, KR Puram, Electronic City, and ORR). When you call or WhatsApp your live location, our dispatcher immediately alerts the nearest patrol vehicle.",
+    answer: "Our average arrival time within Bengaluru city limits is between 15 to 30 minutes. We have multiple fleet units positioned strategically near key transit corridors (Nayandahalli, Whitefield, KR Puram, Yeshwanthpur, Yelahanka, and ORR). When you call or WhatsApp your live location, our dispatcher immediately alerts the nearest patrol vehicle.",
     category: "Arrival & Dispatch"
   },
   {

@@ -42,7 +42,7 @@ export const servicesData = [
     title: "24 Hours Car Towing Services",
     slug: "24-hours-car-towing",
     shortDescription: "Round-the-clock emergency car towing with active crews stationed across Bengaluru 24/7/365.",
-    fullDescription: "Breakdowns never keep business hours. Whether you are stuck at 3:00 AM on the Hoskote highway or stranded in a deserted alley in the rain, our 24-hour car services fleet has fully staffed dispatchers and night-shift drivers on standby every minute of every day, including public holidays and festival days.",
+    fullDescription: "Breakdowns never keep business hours. Whether you are stuck at 3:00 AM on an outer highway or stranded in a deserted alley in the rain, our 24-hour car services fleet has fully staffed dispatchers and night-shift drivers on standby every minute of every day, including public holidays and festival days.",
     features: [
       "Active 24/7 hotline with immediate human dispatch",
       "Nighttime hazard lighting and safety perimeter cones",
@@ -194,7 +194,7 @@ export const servicesData = [
     title: "24 Hours Towing Services",
     slug: "24-hours-towing-services",
     shortDescription: "Continuous 24-hour towing coverage across day, night, weekends, and holidays with zero downtime.",
-    fullDescription: "Our 24 Hours Towing Services division operates without pause. With dedicated night patrol rigs strategically positioned around Hoskote, Whitefield, KR Puram, Indiranagar, and Electronic City, our operators provide quick response, safety perimeter lighting, and courteous passenger assistance at any hour of the night.",
+    fullDescription: "Our 24 Hours Towing Services division operates without pause. With dedicated night patrol rigs strategically positioned around Nayandahalli, Whitefield, KR Puram, Indiranagar, Yeshwanthpur, and Jalahalli, our operators provide quick response, safety perimeter lighting, and courteous passenger assistance at any hour of the night.",
     features: [
       "24/7/365 active dispatch hotline answered in seconds",
       "Air-conditioned passenger cabin transport for stranded motorists",

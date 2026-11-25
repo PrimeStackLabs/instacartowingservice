@@ -190,7 +190,7 @@ export default function ServicesPage() {
                   borderTop: '1px solid rgba(213, 166, 66, 0.3)'
                 }}>
                   <a
-                    href="tel:+918867666437"
+                    href="tel:+919632090752"
                     className="btn btn-primary btn-sm"
                     style={{ justifyContent: 'center' }}
                   >
@@ -198,7 +198,7 @@ export default function ServicesPage() {
                   </a>
 
                   <a
-                    href={`https://wa.me/918867666437?text=Hi%20Car%20Services,%20I%20need%20assistance%20with%20${encodeURIComponent(service.title)}%20in%20Bengaluru.`}
+                    href={`https://wa.me/919632090752?text=Hi%20Car%20Services,%20I%20need%20assistance%20with%20${encodeURIComponent(service.title)}%20in%20Bengaluru.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-whatsapp btn-sm"

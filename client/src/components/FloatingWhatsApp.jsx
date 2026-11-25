@@ -33,7 +33,7 @@ export default function FloatingWhatsApp() {
 
   const handleOpenWhatsApp = (text) => {
     const encoded = encodeURIComponent(text);
-    window.open(`https://wa.me/918867666437?text=${encoded}`, '_blank');
+    window.open(`https://wa.me/919632090752?text=${encoded}`, '_blank');
     setShowPopup(false);
   };
 

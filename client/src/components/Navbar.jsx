@@ -81,7 +81,7 @@ export default function Navbar() {
         justifyContent: 'space-between',
         height: '74px'
       }}>
-        {/* Brand Logo - Official Insta Car Services Logo */}
+        {/* Brand Logo - Official Insta Car Towing Services Logo */}
         <Link
           to="/"
           style={{
@@ -92,13 +92,13 @@ export default function Navbar() {
           }}
         >
           <img
-            src="/assets/logo1.png"
-            alt="Insta Car Services - Towing & Roadside Assistance"
+            src="/assets/insta-car-logo.png"
+            alt="Insta Car Towing Services - Towing & Roadside Assistance"
             className="navbar-brand-logo"
             style={{
-              height: '64px',
+              height: '58px',
               width: 'auto',
-              maxWidth: '300px',
+              maxWidth: '240px',
               objectFit: 'contain',
               display: 'block'
             }}
@@ -309,7 +309,7 @@ export default function Navbar() {
         {/* Right CTA Button */}
         <div style={{ display: 'flex', alignItems: 'center' }} className="desktop-nav">
           <a
-            href="tel:+918867666437"
+            href="tel:+919632090752"
             className="btn btn-primary"
             style={{
               borderRadius: 'var(--radius-full)',
@@ -319,7 +319,7 @@ export default function Navbar() {
               boxShadow: 'none'
             }}
           >
-            <Phone size={15} strokeWidth={2.4} /> Call 88676 66437
+            <Phone size={15} strokeWidth={2.4} /> Call 96320 90752
           </a>
         </div>
 
@@ -390,11 +390,11 @@ export default function Navbar() {
           </nav>
 
           <a
-            href="tel:+918867666437"
+            href="tel:+919632090752"
             className="btn btn-primary"
             style={{ width: '100%', borderRadius: 'var(--radius-full)', justifyContent: 'center' }}
           >
-            <Phone size={17} /> Call 88676 66437
+            <Phone size={17} /> Call 96320 90752
           </a>
         </div>
       )}
@@ -414,14 +414,14 @@ export default function Navbar() {
             display: block !important;
           }
           .navbar-brand-logo {
-            height: 52px !important;
-            max-width: 230px !important;
+            height: 50px !important;
+            max-width: 210px !important;
           }
         }
         @media (max-width: 480px) {
           .navbar-brand-logo {
-            height: 44px !important;
-            max-width: 190px !important;
+            height: 42px !important;
+            max-width: 175px !important;
           }
         }
       `}</style>

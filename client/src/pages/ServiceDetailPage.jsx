@@ -59,11 +59,11 @@ export default function ServiceDetailPage() {
             </p>
 
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
-              <a href="tel:+918867666437" className="btn btn-primary btn-lg">
-                <Phone size={18} /> Request This Rig: 88676 66437
+              <a href="tel:+919632090752" className="btn btn-primary btn-lg">
+                <Phone size={18} /> Request This Rig: 96320 90752
               </a>
               <a
-                href={`https://wa.me/918867666437?text=Hi%20Car%20Services,%20I%20need%20urgent%20assistance%20with%20${encodeURIComponent(service.title)}.`}
+                href={`https://wa.me/919632090752?text=Hi%20Car%20Services,%20I%20need%20urgent%20assistance%20with%20${encodeURIComponent(service.title)}.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp btn-lg"
@@ -198,11 +198,11 @@ export default function ServiceDetailPage() {
                 </p>
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                  <a href="tel:+918867666437" className="btn btn-primary" style={{ justifyContent: 'center' }}>
-                    <Phone size={16} /> Instant Dispatch: +91 88676 66437
+                  <a href="tel:+919632090752" className="btn btn-primary" style={{ justifyContent: 'center' }}>
+                    <Phone size={16} /> Instant Dispatch: +91 96320 90752
                   </a>
                   <a
-                    href={`https://wa.me/918867666437?text=Hi%20Car%20Services,%20I%20need%20urgent%20dispatch%20for%20${encodeURIComponent(service.title)}.`}
+                    href={`https://wa.me/919632090752?text=Hi%20Car%20Services,%20I%20need%20urgent%20dispatch%20for%20${encodeURIComponent(service.title)}.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-whatsapp"
@@ -225,7 +225,7 @@ export default function ServiceDetailPage() {
                 <MapPin size={18} color="var(--color-gold)" /> Rapid Coverage Corridors
               </h4>
               <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', lineHeight: '1.6', marginBottom: '1rem' }}>
-                This recovery service is deployed across Hoskote Highway, Whitefield, KR Puram, Indiranagar, Electronic City, Marathahalli, and Devanahalli Airport Road.
+                This recovery service is deployed across Nayandahalli, Whitefield, KR Puram, Indiranagar, Yeshwanthpur, Jalahalli, Kengeri, Mysore Road, and Devanahalli Airport Road.
               </p>
               <Link to="/locations" style={{ color: 'var(--color-gold)', fontSize: '0.88rem', fontWeight: 600 }}>
                 Check all covered areas & ETAs →

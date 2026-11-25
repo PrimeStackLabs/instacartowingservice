@@ -54,7 +54,7 @@ export default function AboutPage() {
                 A sudden car breakdown or highway accident is one of the most vulnerable situations a motorist can encounter. Unresponsive tow numbers, rude operators, surprise cash demands, and scraped bumpers are far too common in this industry.
               </p>
               <p style={{ fontSize: '1.02rem', lineHeight: '1.7', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
-                <strong>Car Services</strong> was built to rewrite that experience. Headquartered strategically in Hoskote with rapid response satellite units covering Whitefield, KR Puram, Indiranagar, and Electronic City, we combine certified hydraulic recovery equipment with upfront, transparent pricing and polite, trained drivers.
+                <strong>Car Services</strong> was built to rewrite that experience. Headquartered strategically at 8th mile circle, T.Dasarahalli (Nelamangala Main Road, Bangalore 560062) with rapid response satellite units covering Nayandahalli, Whitefield, KR Puram, Indiranagar, and Yeshwanthpur, we combine certified hydraulic recovery equipment with upfront, transparent pricing and polite, trained drivers.
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
@@ -89,7 +89,7 @@ export default function AboutPage() {
                   Central Depot Operations
                 </div>
                 <div style={{ color: '#fff', fontWeight: 600, fontSize: '1.05rem', marginTop: '0.2rem' }}>
-                  Hoskote NH 75 Base Station & Quick Highway Patrol
+                  8th mile circle, T.Dasarahalli Base Station &amp; Nelamangala Main Road Patrol
                 </div>
               </div>
             </div>

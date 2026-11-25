@@ -23,12 +23,12 @@ export default function Footer() {
           <div>
             <Link to="/" style={{ display: 'inline-block', marginBottom: '1.25rem' }}>
               <img
-                src="/assets/logo1.png"
-                alt="Insta Car Services - Towing & Roadside Assistance"
+                src="/assets/insta-car-logo.png"
+                alt="Insta Car Towing Services - Towing & Roadside Assistance"
                 style={{
-                  height: '56px',
+                  height: '64px',
                   width: 'auto',
-                  maxHeight: '58px',
+                  maxWidth: '240px',
                   objectFit: 'contain',
                   display: 'block'
                 }}
@@ -98,7 +98,7 @@ export default function Footer() {
               Key Bengaluru Corridors:
             </h5>
             <p style={{ fontSize: '0.82rem', lineHeight: '1.5' }}>
-              Hoskote Highway, Whitefield ITPL, KR Puram Tin Factory, Indiranagar, Electronic City, Marathahalli ORR, Devanahalli Airport Road.
+              Nayandahalli ORR, Whitefield ITPL, KR Puram Tin Factory, Indiranagar, Yeshwanthpur, Jalahalli, Kengeri, Mysore Road, Devanahalli Airport Road.
             </p>
           </div>
 
@@ -113,8 +113,8 @@ export default function Footer() {
                 <Phone size={18} color="var(--color-gold)" style={{ marginTop: '0.2rem', flexShrink: 0 }} />
                 <div>
                   <div style={{ fontSize: '0.78rem', textTransform: 'uppercase', color: 'var(--text-muted)' }}>Emergency Hotline (Primary)</div>
-                  <a href="tel:+918867666437" style={{ color: '#fff', fontWeight: 700, fontSize: '1.05rem' }}>
-                    +91 88676 66437
+                  <a href="tel:+919632090752" style={{ color: '#fff', fontWeight: 700, fontSize: '1.05rem' }}>
+                    +91 96320 90752
                   </a>
                 </div>
               </div>
@@ -143,7 +143,7 @@ export default function Footer() {
                 <MapPin size={18} color="var(--color-gold)" style={{ marginTop: '0.2rem', flexShrink: 0 }} />
                 <div>
                   <div style={{ fontSize: '0.78rem', textTransform: 'uppercase', color: 'var(--text-muted)' }}>Fleet Base & HQ</div>
-                  <div style={{ color: '#fff' }}>Hoskote, Bengaluru, Karnataka 562114</div>
+                  <div style={{ color: '#fff' }}>8th mile circle, T.Dasarahalli Nelamangala Main Road Bangalore 560062</div>
                 </div>
               </div>
             </div>
@@ -162,7 +162,7 @@ export default function Footer() {
           fontSize: '0.85rem'
         }}>
           <div>
-            © {new Date().getFullYear()} <strong>Car Services</strong>. All Rights Reserved. Hoskote, Bengaluru.
+            © {new Date().getFullYear()} <strong>Car Services</strong>. All Rights Reserved. 8th mile circle, T.Dasarahalli, Bangalore.
           </div>
           <div style={{ display: 'flex', gap: '1.5rem' }}>
             <span>24/7 Bengaluru Car Services & Towing Network</span>

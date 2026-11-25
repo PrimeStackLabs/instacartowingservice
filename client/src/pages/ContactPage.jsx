@@ -59,8 +59,8 @@ export default function ContactPage() {
             <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginBottom: '1.25rem' }}>
               Immediate response for accidents, highway breakdowns, and stranded motorists.
             </p>
-            <a href="tel:+918867666437" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
-              <Phone size={16} /> +91 88676 66437
+            <a href="tel:+919632090752" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
+              <Phone size={16} /> +91 96320 90752
             </a>
           </div>
 
@@ -82,7 +82,7 @@ export default function ContactPage() {
               Share your GPS location directly so our driver can navigate straight to your bumper.
             </p>
             <a
-              href="https://wa.me/918867666437?text=Hi%20Car%20Services,%20I%20need%20assistance%20in%20Bengaluru."
+              href="https://wa.me/919632090752?text=Hi%20Car%20Services,%20I%20need%20assistance%20in%20Bengaluru."
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-whatsapp"

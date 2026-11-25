@@ -341,11 +341,11 @@ export default function GallerySection({ limit = 6, showAllLink = true }) {
                 </p>
 
                 <div style={{ display: 'flex', gap: '0.75rem' }}>
-                  <a href="tel:+918867666437" className="btn btn-primary btn-sm">
+                  <a href="tel:+919632090752" className="btn btn-primary btn-sm">
                     Call This Rig
                   </a>
                   <a
-                    href={`https://wa.me/918867666437?text=Hi%20Car%20Services,%20I%20am%20inquiring%20about%20towing%20like%20${encodeURIComponent(selectedImage.title)}.`}
+                    href={`https://wa.me/919632090752?text=Hi%20Car%20Services,%20I%20am%20inquiring%20about%20towing%20like%20${encodeURIComponent(selectedImage.title)}.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-whatsapp btn-sm"
